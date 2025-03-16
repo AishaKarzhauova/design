@@ -70,7 +70,7 @@
 .security-section {
   padding: 120px 10vw 80px;
   background-color: #14192D; /* Correct Background Color */
-  padding: 80px 10vw;
+  padding: 80px 10vw 40px;
   display: flex;
   justify-content: center;
 }
@@ -205,3 +205,237 @@
   /* line-height: 1; */
 }
 
+/* How It Works Section */
+.how-it-works {
+  padding: 100px 10vw;
+  background-color: #14192D; /* Match previous background */
+  text-align: center;
+}
+
+.how-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.how-description {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-bottom: 40px;
+}
+
+/* Steps Container */
+.steps-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap; /* Ensures all steps fit in one line */
+}
+
+/* Step Cards */
+.step-card {
+  background: #1E2337;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 22%; /* Ensures uniform size */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+.step-card img {
+  width: 100%; /* Ensures images fill card width */
+  height: 180px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures image consistency */
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Step Buttons – Now Below Image */
+.step-btn {
+  background: linear-gradient(90deg, #6e8efb, #a777e3);
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 80%; /* Ensures button spans nicely */
+  margin-top: 10px;
+}
+
+.step-btn:hover {
+  opacity: 0.8;
+}
+
+/* Step Text */
+.step-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.step-text h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.step-text p {
+  font-size: 14px;
+  color: #b0b0b0;
+  min-height: 40px; /* Ensures all text blocks are aligned */
+}
+
+/* Where Can It Be Used Section */
+.use-cases-section {
+  text-align: center;
+  padding: 80px 10vw;
+  background-color: #14192D;
+  color: white;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-bottom: 30px;
+}
+
+.use-cases-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.use-case {
+  text-align: center;
+  width: 180px; /* Bigger circles */
+}
+
+.use-case-icon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+.use-case h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.use-case p {
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+/* Registration instructions section */
+
+.register-section {
+  text-align: center;
+  padding: 60px 8vw;
+  background-color: #14192D; /* Same as previous sections */
+  color: white;
+}
+
+.register-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.register-subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #b0b0b0;
+}
+
+/* Steps Container */
+.register-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+/* Step Styling */
+.step {
+  text-align: center;
+  width: 120px; /* Smaller width */
+}
+
+/* Step Images - NO FRAMES */
+.step-img {
+  width: 100px; /* Smaller images */
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.step-img:hover {
+  transform: scale(1.1);
+}
+
+/* Colored Step Titles (Text Styled Like Buttons) */
+.step-link {
+  display: block;
+  font-size: 14px; /* Smaller text */
+  font-weight: bold;
+  background: linear-gradient(90deg, #6e8efb, #a777e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.step-link:hover {
+  opacity: 0.7;
+}
+
+/* Step Descriptions */
+.step-text {
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
+/* Arrows */
+.arrow-icon {
+  width: 30px; /* Smaller arrows */
+  height: auto;
+  opacity: 0.8;
+  margin: 0 10px;
+  align-self: center;
+}
+
+/* Footer Text */
+.register-footer {
+  margin-top: 40px;
+  font-size: 14px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #b0b0b0;
+}
